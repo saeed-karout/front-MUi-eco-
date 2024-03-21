@@ -14,8 +14,8 @@ import { t } from "i18next";
 
 
 const mySlider =[
-    {text:t('hero.women') , link:"./public/images/banner-25.jpg"},
-    {text:t('hero.men'), link:"./public/images/banner-15.jpg"},
+    {text:t('hero.women') , link:"./images/banner-25.jpg"},
+    {text:t('hero.men'), link:"./images/banner-15.jpg"},
 
 ]
    
@@ -136,7 +136,7 @@ const Hero = () => {
             
               <Box sx={{ display: { xs: "none", md: "block", minWidth: "26.5%" } }}>
                   <Box sx={{ position: 'relative' }}>
-                      <img src=".\public\images\banner-17.jpg" alt="" width={"100%"} />
+                      <img src=".\images\banner-17.jpg" alt="" width={"100%"} />
             
             
                       <Stack sx={{ position: 'absolute', top: "50%", transform: "translateY(-50%)", left: "30px" }}>
@@ -198,7 +198,7 @@ const Hero = () => {
                   </Box>
             
                   <Box sx={{ position: 'relative' }}>
-                      <img src=".\public\images\banner-16.jpg" alt="" width={"100%"} />
+                      <img src=".\images\banner-16.jpg" alt="" width={"100%"} />
                       <Stack sx={{ position: 'absolute', top: "50%", transform: "translateY(-50%)", left: "30px" }}>
                           <Typography
                               variant="caption"
